@@ -1,0 +1,27 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sisyphus-stack/Node_Mongo_REST-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sisyphus-stack/Node_Mongo_REST-tutorial/issues"
+  },
+  "homepage": "https://github.com/sisyphus-stack/Node_Mongo_REST-tutorial#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
